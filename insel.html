@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Магазин одягу</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<input type="checkbox" id="menu-toggle" />
+		<label for="menu-toggle" id="menu-icon"></label>
+		<nav id="menu">
+			<ul>
+				<li><a href="#home">Головна</a></li>
+				<li><a href="#about">Про нас</a></li>
+				<li><a href="#services">Послуги</a></li>
+				<a class="button" href="products.html">Перейти до товарів</a>
+				<li><a href="#gallery">Фотогалерея</a></li>
+				<li><a href="#contacts">Контакти</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="intro">
+			<h1>Магазин одягу</h1>
+			<p>Ми торгуємо спідницями, шапками, кофтами та футболками.</p>
+		</div>
+
+		<div class="video-container">
+			<video controls>
+				<source src="photoes/реклама магазину одягу.mp4" type="video/mp4">
+				Ваш браузер не підтримує відео HTML5.
+			</video>
+		</div>
+
+		<div class="products">
+			<h2>Наші товари</h2>
+			<div class="product">
+				<img src="photoes\спідниця.jpg" alt="Спідниця">
+				<h3>Спідниці</h3>
+				<p>Ми маємо великий вибір спідниць у різних стилях та кольорах.</p>
+			</div>
+			<div class="product">
+				<img src="photoes\шапка.jpg" alt="Шапка">
+				<h3>Шапки</h3>
+				<p>У нас є шапки для будь-якої погоди та на всі смаки.</p>
+			</div>
+			<div class="product">
+				<img src="photoes\кофта.jpg" alt="Кофта">
+				<h3>Кофти</h3>
+				<p>Наші кофти забезпечать вам зручність та стильність одночасно.</p>
+			</div>
+			<div class="product">
+				<img src="photoes\футболка.jpg" alt="Футболка">
+				<h3>Футболки</h3>
+				<p>Футболки - це завжди актуальний та комфортний вибір.</p>
+			</div>
+		</div>
+
+		<div class="about" id="about">
+			<h2>Про нас</h2>
+			<p>Наш магазин одягу пропонує широкий вибір якісного та стильного одягу за доступними цінами. Ми завжди раді
+				бачити нових клієнтів та стараємося надати кожному відмінний сервіс.
+			</p>
+		</div>
+
+		<div class="services" id="services">
+			<h2>Послуги</h2>
+			<ul>
+				<li>Безкоштовна доставка в межах міста</li>
+				<li>Можливість повернення товару протягом 14 днів</li>
+				<li>Професійні консультації з вибору одягу</li>
+			</ul>
+		</div>
+
+		<div class="gallery" id="gallery">
+			<h2>Фотогалерея</h2>
+			<div class="photos">
+				<img src="photoes\1.jpg" width="200" alt="Фото 1">
+				<img src="photoes\2.jpg" width="200" alt="Фото 2">
+				<img src="photoes\3.jpg" width="200" alt="Фото 3">
+				<img src="photoes\4.jpg" width="200" alt="Фото 4">
+				<img src="photoes\5.jpg" width="200" alt="Фото 5">
+				<img src="photoes\6.jpg" width="200" alt="Фото 6">
+			</div>
+		</div>
+
+		<form action="stashkiv2003@gmail.com" method="POST">
+			<div class="form-group">
+				<label for="name">Ім'я:</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+			</div>
+			<div class="form-group">
+				<label for="message">Повідомлення:</label>
+				<textarea id="message" name="message" required></textarea>
+			</div>
+			<button type="submit">Надіслати</button>
+		</form>
+
+		<div class="contacts" id="contacts">
+			<h2>Контакти</h2>
+			<ul>
+				<li>Адреса: вул. Привокзальна 10, м. Київ</li>
+				<li>Телефон: +38 (044) 555-55-55</li>
+				<li>Email: shop@gmail.com</li>
+			</ul>
+		</div>
+	</main>
+
+	<footer>
+		<p>© 2023 Магазин одягу</p>
+	</footer>
+</body>
+
+</html>
